@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#icons {
+  height: 150px;
+  padding: 15px 0;
+  text-align: center;
+  background-color: pink;
+  vertical-align: middle;
+  line-height: 190px;
+  overflow: hidden;
+  
+}
