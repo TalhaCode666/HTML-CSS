@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 
+body {
+  margin: 0;
+  padding: 0;
+}  */
+
+p,
+h2 {
+  font-family: "Roboto", "Arial", sans-serif;
+}
+
+/* outermost dive containing videos */
+
+.container {
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 25px 20px;
+
+}
+
+/* video thumbnail */
+
+.thumbnail {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* 1/2 grid containing video name,channel name, and channel img */
+
+.vd-info-grid {
+
+  display: grid;
+  grid-template-columns: 65px 1fr;
+
+}
+
+/* div containing channel profile img */
+
+.ch-picture {
+  width: 50px;
+  vertical-align: top;
+}
+
+/* channel profile img */
+
+.pimg {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* video title */
+
+.vd-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+
+/* channel name, and view count */
+
+.ch-name,
+.vd-views {
+  margin: 0px;
+  margin-bottom: 3px;
+  font-size: 1rem;
+  color: rgb(96, 96, 96);
+  font-weight: 400;
+}
