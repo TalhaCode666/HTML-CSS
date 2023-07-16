@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 
+body {
+  margin: 0;
+  padding: 0;
+}  */
+
+p {
+  font-family: Arial;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,200px);
+  column-gap: 20px;
+  border: 1px solid black;
+  width: 700px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.profile {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.profile-cover {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.metadata {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.profile-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.frnd-count {
+  margin: 0px 10px;
+  color: rgb(100, 100, 100);
+}
+
+.add-friend {
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(24, 119, 242);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
