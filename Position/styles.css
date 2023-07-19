@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  height: 3000px;
+  padding-top: 50px;
+  padding-left: 100px;
+  position: relative;
+}
+
+.header {
+  position: fixed;
+  height: 50px;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+}
+
+.sidebar {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 90px;
+  background-color: green;
+  color: white;
+}
+
+.element {
+  width: 200px;
+  height: 200px;
+}
+
+.ch2 {
+  position: relative;
+}
+
+.ch3 {
+  position: absolute;
+  top: 6%;
+  right: 6%;
+  color: black;
+  padding: 10px;
+}
