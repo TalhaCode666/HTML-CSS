@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+
+:root {
+
+  --bg-color: lightpink;
+  --bd-color: 5px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  background-color: var(--bg-color);
+  border: var(--bd-color);
+}

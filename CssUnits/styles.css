@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+
+:root {
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  font-size: 10px;
+}
+
+#first {
+  font-size: 2vw;
+}
+
+#second {
+  font-size: 3rem;
+  display: none;
+}
+
+/* trigger only in phone */
+@media (width <= 480px) {
+  #second {
+    display: block;
+    background-color: red;
+  }
+}
+
+/* trigger only in tablet */
+@media (480px <= width <= 767px) or (orientation: landscape) {
+  #second {
+    display: block;
+    background-color: blue;
+  }
+}
+
+/* trigger only in pc */
+@media (width >=767px) {
+  #second {
+    display: block;
+    background-color: lightcoral;
+  }
+}
